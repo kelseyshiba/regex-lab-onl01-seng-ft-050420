@@ -1,6 +1,5 @@
 require 'pry'
 def starts_with_a_vowel?(word)
-  binding.pry
   word.split.any? {|word| word.start_with?(/[aeiou]/)}
 end
 
