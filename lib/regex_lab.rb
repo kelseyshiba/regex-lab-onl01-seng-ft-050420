@@ -21,6 +21,7 @@ end
 
 def valid_phone_number?(phone)
   phone.split.each do |number| 
+    binding.pry
     if number.match(/(\d+)(\d+)(\d+)/)
       return true
     else
