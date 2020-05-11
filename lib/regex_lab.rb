@@ -1,3 +1,4 @@
+require 'pry'
 def starts_with_a_vowel?(word)
   word.any? {|word| word.start_with?(/[aeiou]/)}
   binding.pry
