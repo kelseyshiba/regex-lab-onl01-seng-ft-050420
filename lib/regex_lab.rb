@@ -16,7 +16,7 @@ text.scan(^[A-Z])
 end
 
 # def valid_phone_number?(phone)
-#   phone.all? {|number| number.scan()}
+#   phone.all? {|number| number.scan((\d+)}
 # end
 
 #"28894546", "(718)891-13135", "234 43 9978", "(800)IloveNY"
