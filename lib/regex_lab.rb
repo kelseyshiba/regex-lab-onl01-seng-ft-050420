@@ -26,7 +26,7 @@ def valid_phone_number?(phone)
     else
       false
     end
-  end
+  end 
 end
 
 #"28894546", "(718)891-13135", "234 43 9978", "(800)IloveNY"
